@@ -108,13 +108,6 @@ The implementation follows current official patterns from the
 [ADK MCP tools guide](https://adk.dev/tools-custom/mcp-tools/), and
 [MCP Python server documentation](https://py.sdk.modelcontextprotocol.io/server/).
 
-## Submission assets
-
-- Kaggle narrative: `docs/kaggle-writeup.md`
-- Five-minute recording plan: `docs/demo-script.md`
-- Screenshot list: `docs/screenshot-checklist.md`
-- Scope and completion record: `docs/implementation-status.md`
-
 ## License and use
 
 Educational capstone prototype. Simulation only; not financial advice.
