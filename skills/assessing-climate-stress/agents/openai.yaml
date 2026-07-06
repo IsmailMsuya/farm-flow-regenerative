@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Climate Stress"
+  short_description: "Assess packaged rainfall and NDVI evidence"
+  default_prompt: "Assess climate stress for this packaged Farm Flow scenario."

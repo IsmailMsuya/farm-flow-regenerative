@@ -1,0 +1,51 @@
+{
+  "dataset_notice": "Synthetic demonstration values shaped like CHIRPS rainfall and MODIS NDVI records; not observed farm measurements.",
+  "historical_45_day_rainfall_mm": [40, 50, 60, 70, 80, 90, 100, 110, 120, 130],
+  "scenarios": [
+    {
+      "contract_id": "demo_normal",
+      "farmer_alias": "Farmer Amani",
+      "location_id": "western_kenya_demo_001",
+      "coverage_start": "2025-01-01",
+      "coverage_end": "2025-02-14",
+      "rainfall_daily_mm": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+      "ndvi_current": 0.64,
+      "ndvi_baseline": 0.65,
+      "ndvi_quality_approved": true
+    },
+    {
+      "contract_id": "demo_watchlist",
+      "farmer_alias": "Farmer Baraka",
+      "location_id": "western_kenya_demo_001",
+      "coverage_start": "2025-03-01",
+      "coverage_end": "2025-04-14",
+      "rainfall_daily_mm": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+      "ndvi_current": 0.62,
+      "ndvi_baseline": 0.65,
+      "ndvi_quality_approved": true
+    },
+    {
+      "contract_id": "demo_triggered",
+      "farmer_alias": "Farmer Chebet",
+      "location_id": "western_kenya_demo_001",
+      "coverage_start": "2025-05-01",
+      "coverage_end": "2025-06-14",
+      "rainfall_daily_mm": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+      "ndvi_current": 0.52,
+      "ndvi_baseline": 0.65,
+      "ndvi_quality_approved": true
+    },
+    {
+      "contract_id": "demo_insufficient",
+      "farmer_alias": "Farmer Deka",
+      "location_id": "western_kenya_demo_001",
+      "coverage_start": "2025-07-01",
+      "coverage_end": "2025-08-14",
+      "rainfall_daily_mm": [null, 1, 1, 1, 1, null, 1, 1, 1, 1, null, 1, 1, 1, 1, null, 1, 1, 1, 1, null, 1, 1, 1, 1, null, 1, 1, 1, 1, null, 1, 1, 1, 1, null, 1, 1, 1, 1, null, 1, 1, 1, 1],
+      "ndvi_current": 0.50,
+      "ndvi_baseline": 0.65,
+      "ndvi_quality_approved": true
+    }
+  ]
+}
+

@@ -1,0 +1,20 @@
+contract_id: kenya_regenerative_transition_v1
+version: "1.0"
+crop: maize_bean_intercrop
+coverage_window_days: 45
+rainfall_trigger:
+  metric: cumulative_rainfall
+  comparator: below_historical_percentile
+  percentile: 20
+vegetation_confirmation:
+  metric: ndvi_anomaly
+  comparator: below_threshold
+  threshold: -0.15
+data_quality:
+  minimum_rainfall_coverage_percent: 90
+  require_quality_approved_ndvi: true
+relief_option:
+  type: repayment_deferral
+  duration_days: 60
+mode: simulation_only
+

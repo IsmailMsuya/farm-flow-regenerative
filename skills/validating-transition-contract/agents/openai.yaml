@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Transition Contract"
+  short_description: "Validate synthetic Farm Flow contract inputs safely"
+  default_prompt: "Validate this Farm Flow transition contract against the packaged rules."

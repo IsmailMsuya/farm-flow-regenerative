@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "farm-flow-regenerative"
+version = "0.1.0"
+description = "Simulation-only climate-relief decision-support prototype"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "google-adk>=2.0,<3",
+  "mcp>=1.26,<2",
+  "pydantic>=2.10,<3",
+  "pyyaml>=6,<7",
+  "uvicorn[standard]>=0.34,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.28,<1",
+  "pytest>=8.3,<9",
+  "pytest-asyncio>=0.25,<1",
+  "ruff>=0.11,<1",
+]
+
+[project.scripts]
+farmflow = "farmflow.api:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["farmflow", "app", "mcp_servers"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+

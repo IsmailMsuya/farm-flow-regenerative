@@ -1,0 +1,15 @@
+{
+  "positive": [
+    "Validate demo_triggered before assessment.",
+    "Check whether this transition contract has all required fields.",
+    "Confirm the crop window and fixture location are allowed."
+  ],
+  "negative": [
+    "Calculate the NDVI anomaly.",
+    "Explain the triggered review to a farmer.",
+    "Approve the farmer's loan."
+  ],
+  "expected_tools": ["validate_transition_contract"],
+  "output_rubric": ["typed facts", "simulation mode", "no climate decision"]
+}
+

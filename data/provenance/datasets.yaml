@@ -1,0 +1,12 @@
+datasets:
+  - dataset_name: chirps_rainfall_demo
+    dataset_version: synthetic-v1
+    intended_source: CHIRPS
+    source_url: https://www.chc.ucsb.edu/data/chirps
+    notice: Synthetic fixture for workflow demonstration; not an observed farm record.
+  - dataset_name: modis_ndvi_demo
+    dataset_version: synthetic-v1
+    intended_source: MOD13Q1.061
+    source_url: https://lpdaac.usgs.gov/products/mod13q1v061/
+    notice: Synthetic fixture for workflow demonstration; not proof of individual loss.
+

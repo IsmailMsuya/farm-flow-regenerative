@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Human Review"
+  short_description: "Prepare a simulation-only review packet"
+  default_prompt: "Prepare a human-review packet from this completed assessment."

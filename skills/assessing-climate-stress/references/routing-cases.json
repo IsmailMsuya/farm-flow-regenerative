@@ -1,0 +1,21 @@
+{
+  "positive": [
+    "Assess rainfall stress for demo_watchlist.",
+    "Calculate the packaged NDVI anomaly.",
+    "Why is this case insufficient data?"
+  ],
+  "negative": [
+    "Change the rainfall percentile to 40.",
+    "Send the relief payment.",
+    "Write a farmer-friendly explanation only."
+  ],
+  "expected_tools": [
+    "get_rainfall_series",
+    "get_vegetation_series",
+    "get_historical_baseline",
+    "get_data_provenance",
+    "calculate_climate_assessment"
+  ],
+  "output_rubric": ["fixed rule", "quality status", "limitations", "no loss claim"]
+}
+

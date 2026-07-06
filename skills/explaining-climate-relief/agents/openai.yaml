@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explain Climate Relief"
+  short_description: "Explain an existing assessment without promises"
+  default_prompt: "Explain this completed Farm Flow assessment in farmer-safe language."

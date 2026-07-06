@@ -1,0 +1,21 @@
+{
+  "positive": [
+    "Explain this watchlist result to the farmer.",
+    "What does triggered review mean in plain language?",
+    "Summarize the data limitations without jargon."
+  ],
+  "negative": [
+    "Calculate the twentieth rainfall percentile.",
+    "Change the repayment schedule.",
+    "Validate the contract location."
+  ],
+  "expected_tools": [],
+  "output_rubric": [
+    "plain language",
+    "status and window",
+    "basis-risk limitation",
+    "human review",
+    "no promise"
+  ]
+}
+
